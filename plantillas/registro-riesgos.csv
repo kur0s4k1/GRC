@@ -1,0 +1,6 @@
+id,activo,amenaza,vulnerabilidad,probabilidad,impacto,nivel,tratamiento,control_asociado,responsable,riesgo_residual,estado,fecha_revision
+R-001,Servidor de correo,Phishing / credenciales comprometidas,Falta de MFA,4,4,16,Mitigar,ISO 27001 A.8.5 - MFA + A.6.3 concienciación,Equipo SOC,6,en_tratamiento,2026-12-31
+R-002,Base de datos de clientes,Fuga de datos personales,Cifrado en reposo ausente,3,5,15,Mitigar,ISO 27001 A.8.24 - Criptografía / 27701,DPO,5,en_tratamiento,2026-12-31
+R-003,Red OT / PLC,Malware con impacto físico,Segmentación IT/OT insuficiente,2,5,10,Mitigar,IEC 62443 zonas y conductos / ISO 27019,Ingeniería OT,5,abierto,2027-03-31
+R-004,Proveedor cloud,Ruptura de servicio,Dependencia de un único proveedor,3,3,9,Transferir,ISO 22301 / SLA contractual,Compras,3,aceptado,2027-06-30
+R-005,Estaciones de trabajo,Amenaza interna,Permisos excesivos (sin mínimo privilegio),3,3,9,Mitigar,ISO 27001 A.8.2 - Privilegios / CIS 5-6,IT,4,en_tratamiento,2026-12-31
