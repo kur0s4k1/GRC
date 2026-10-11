@@ -10,7 +10,7 @@ Define los requisitos del SGSI. Su estructura sigue el **Anexo SL** (High-Level 
 
 **Guía práctica:** [herramientas recomendadas frente a gestión manual](herramientas-vs-manual-iso-27002.md), con el control identificado, precio y número de controles a los que puede aportar cada herramienta.
 
-**Ejemplo visual:** [caso ficticio de un SOC](caso-ficticio-soc/README.md), con alcance, seis riesgos, controles vinculados y pruebas simuladas de eficacia.
+**Herramientas transversales:** [Mermaid, draw.io, CISO Assistant y eramba](herramientas-transversales-sgsi.md) para diagramar y administrar el SGSI.
 
 1. Objeto y campo de aplicación
 2. Referencias normativas

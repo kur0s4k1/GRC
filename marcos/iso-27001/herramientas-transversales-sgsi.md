@@ -1,0 +1,14 @@
+# Herramientas prácticas para documentar y gestionar el SGSI
+
+**Guía breve · revisada el 11-10-2026.** Estas herramientas ayudan a **dibujar, ordenar y seguir el trabajo** del SGSI. No se asignan automáticamente a un control del Anexo A: un diagrama o un registro en una plataforma no demuestra que el control funcione.
+
+| Necesidad | Herramienta y uso concreto | Precio publicado | Límite a considerar |
+|---|---|---|---|
+| Diagramas que cambian junto con la documentación | [Mermaid](https://mermaid.js.org/): flujos de datos, procesos y dependencias escritos como texto; [GitHub los muestra en Markdown](https://docs.github.com/es/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams). | Biblioteca de código abierto **gratis**; [editor en línea](https://mermaid.live/) gratuito. | Requiere aprender la sintaxis; no publiques diagramas con secretos o arquitectura sensible. |
+| Diagramas visuales sin escribir código | [draw.io / diagrams.net](https://www.drawio.com/docs/manual/editor/offline/): arquitectura, límites del SGSI y flujos entre áreas. | Editor web y aplicación de escritorio **gratis**. | Para información sensible, usa el escritorio sin conexión y define dónde guardar y versionar los archivos. |
+| Riesgos, controles, evaluaciones y seguimiento del SGSI | [CISO Assistant](https://intuitem.com/ciso-assistant/) · [precios oficiales](https://intuitem.com/pricing): reúne registros y responsables en una plataforma. | Community autogestionada **€0**; Pro SaaS **€39 por contribuidor/mes**, facturado anualmente. | La página de precios describe Community como **«para uso personal»**: confirma las condiciones antes de usarla en una empresa. Operarla y respaldarla tiene costo propio. |
+| Riesgos y cumplimiento en una plataforma GRC | [eramba](https://www.eramba.org/eramba-software) · [reseñas](https://www.g2.com/products/eramba/reviews): registra riesgos, controles, incidentes y seguimiento. | Community autogestionada **gratis**; Enterprise desde **€2.500/año** en servidores propios o **€5.000/año** como SaaS. | Community incluye 4 de 7 áreas de uso y soporte comunitario. Las reseñas públicas de G2 son escasas; prueba la edición gratuita con tus procesos antes de elegirla. |
+
+**Elección rápida:** Mermaid sirve si ya mantienes documentación en Git; draw.io si necesitas editar con el equipo de forma visual. CISO Assistant y eramba son alternativas para **administrar el SGSI**, no sustitutos de las decisiones de riesgo, revisión de evidencias ni evaluación del proveedor. Si les cargarás riesgos, incidentes o datos personales, revisa permisos, respaldo, ubicación de datos y salida antes de adoptarlas.
+
+Los precios son referencias públicas consultadas en octubre de 2026; pueden variar por impuestos, región o contrato. Para herramientas ligadas a controles concretos, consulta la [guía de controles y herramientas](herramientas-vs-manual-iso-27002.md).

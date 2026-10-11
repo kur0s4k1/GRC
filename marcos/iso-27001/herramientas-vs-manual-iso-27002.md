@@ -1,6 +1,6 @@
 # Herramientas que facilitan controles ISO 27001/27002
 
-**Guía rápida · edición 2022 · revisada el 10-10-2026.** Cada fila identifica el control del **Anexo A de ISO/IEC 27001:2022** (el mismo número en ISO/IEC 27002:2022), la tarea manual y **una o más herramientas recomendadas** para facilitarla. Arriba hay recomendaciones directas; debajo está la lista completa de **los 93 controles**, agrupada en secciones desplegables.
+**Guía rápida · edición 2022 · revisada el 11-10-2026.** Cada fila identifica el control del **Anexo A de ISO/IEC 27001:2022** (el mismo número en ISO/IEC 27002:2022), la tarea manual y **una o más herramientas recomendadas** para facilitarla. Arriba hay recomendaciones directas; debajo está la lista completa de **los 93 controles**, agrupada en secciones desplegables. Para diagramas y plataformas GRC, consulta las [herramientas transversales](herramientas-transversales-sgsi.md).
 
 | Control | Si se hace manualmente | Herramienta recomendada | Precio público de referencia |
 |---|---|---|---|
