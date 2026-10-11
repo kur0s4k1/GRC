@@ -158,6 +158,10 @@ Abre el tema que te interese. «Sin herramienta seleccionada» significa que est
 </details>
 
 
+**Cómo comprobar el apoyo real:** para **A.8.7**, revisar cobertura de equipos y una alerta gestionada; para **A.8.8**, contrastar vulnerabilidades detectadas con parches aplicados y una verificación posterior; para **A.8.9**, comparar la configuración actual con la línea base aprobada; para **A.8.13**, restaurar una copia y comprobar datos y tiempo de recuperación. Una licencia o un panel activo no sustituyen estas pruebas. [Guía de evaluación de controles de NIST](https://csrc.nist.gov/glossary/term/security_control_assessment) · [Pruebas de restauración](https://learn.microsoft.com/en-us/security/benchmark/azure/mcsb-v2-backup-recovery).
+
+**Seis A.8 sin producto recomendado:** A.8.14, A.8.26, A.8.27, A.8.30, A.8.31 y A.8.34. La elección depende de la arquitectura, el entorno de desarrollo, los contratos o el alcance de las auditorías; la tarea manual indicada sigue aplicando.
+
 ## ¿A cuántos controles ayuda cada herramienta?
 
 **Conteo orientativo de esta guía:** **23 herramientas**, **60 relaciones herramienta–control** y **50 controles distintos de 93** con algún apoyo posible; en los otros **43** no se seleccionó una herramienta en esta edición. Un mismo control puede aparecer en varias herramientas. Los números indican **apoyo parcial**, nunca que el producto cumpla o certifique el control. Las funciones dependen del plan, la configuración y los activos incorporados.
