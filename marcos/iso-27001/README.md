@@ -8,6 +8,8 @@ Referencia del estándar internacional para establecer, implementar, mantener y 
 
 Define los requisitos del SGSI. Su estructura sigue el **Anexo SL** (High-Level Structure) común a los sistemas de gestión ISO:
 
+**Empieza aquí:** [ruta práctica para implementar y mantener el SGSI](implementar-y-mantener-sgsi.md). Ordena las decisiones iniciales, la operación, las pruebas y la revisión continua.
+
 **Guía práctica:** [herramientas recomendadas frente a gestión manual](herramientas-vs-manual-iso-27002.md), con el control identificado, precio y número de controles a los que puede aportar cada herramienta.
 
 **Herramientas transversales:** [Mermaid, draw.io, CISO Assistant y eramba](herramientas-transversales-sgsi.md) para diagramar y administrar el SGSI.
