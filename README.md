@@ -22,7 +22,7 @@ GRC/
 
 | Sección | Contenido |
 |---|---|
-| [`marcos/iso-27001`](marcos/iso-27001) | SGSI, controles Anexo A (93), declaración de aplicabilidad, familia ISO 27000 y [guía de herramientas frente a gestión manual](marcos/iso-27001/herramientas-vs-manual-iso-27002.md) |
+| [`marcos/iso-27001`](marcos/iso-27001) | SGSI, controles Anexo A (93), declaración de aplicabilidad, familia ISO 27000 y [guía rápida de herramientas](marcos/iso-27001/herramientas-vs-manual-iso-27002.md) |
 | [`marcos/nist`](marcos/nist) | CSF 2.0, SP 800-53 Rev.5, SP 800-171, gestión de riesgo (800-30) |
 | [`marcos/otros-marcos`](marcos/otros-marcos) | COBIT 2019, CIS Controls v8.1, SOC 2, ISO 31000, ISO 22301 |
 | [`marcos/industriales`](marcos/industriales) | IEC 62443 (OT/ICS), NIST SP 800-82, NERC CIP, IEC 61508/61511, ISO 27019, PCI DSS |

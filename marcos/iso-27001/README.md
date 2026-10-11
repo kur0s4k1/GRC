@@ -8,7 +8,7 @@ Referencia del estándar internacional para establecer, implementar, mantener y 
 
 Define los requisitos del SGSI. Su estructura sigue el **Anexo SL** (High-Level Structure) común a los sistemas de gestión ISO:
 
-**Guía práctica:** [herramientas frente a gestión manual para los 93 controles de ISO/IEC 27002:2022](herramientas-vs-manual-iso-27002.md). Incluye precios públicos, reseñas, límites de cada herramienta y riesgos que deben evaluarse al contratar proveedores.
+**Guía práctica:** [herramientas recomendadas frente a gestión manual](herramientas-vs-manual-iso-27002.md), con el control identificado, precio y reseñas. La matriz completa de 93 controles está enlazada como anexo.
 
 1. Objeto y campo de aplicación
 2. Referencias normativas
