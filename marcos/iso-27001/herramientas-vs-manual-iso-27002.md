@@ -4,6 +4,7 @@
 
 | Control | Si se hace manualmente | Herramienta recomendada | Precio público de referencia |
 |---|---|---|---|
+| **A.5.7 Inteligencia de amenazas** | Elegir fuentes pertinentes, analizar amenazas para la organización y decidir acciones. | [MISP](https://www.misp-project.org/features/): reúne, relaciona y comparte indicadores e información de amenazas. El equipo debe validar su contexto y utilidad. | Software **gratuito y de código abierto**; alojamiento, operación y fuentes comerciales aparte. |
 | **A.5.16 Gestión de identidades** | Crear, cambiar y desactivar cuentas; revisar periódicamente quién tiene acceso. | [Microsoft Active Directory Domain Services](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-domain-services): centraliza usuarios y grupos en entornos Windows. | No se encontró precio independiente de AD DS: requiere [licencias de Windows Server y CAL](https://www.microsoft.com/en-us/licensing/product-licensing/windows-server). |
 | **A.5.19 Seguridad en relaciones con proveedores** | Evaluar evidencias y riesgos de cada proveedor en una ficha. | [UpGuard Vendor Risk](https://www.upguard.com/pricing/vendor-risk) · [reseñas](https://www.g2.com/products/upguard-vendor-risk/reviews): centraliza evaluaciones y seguimiento. | **USD 1.750/mes**, pago anual; útil si el volumen justifica el costo. |
 | **A.5.24 Preparación para gestionar incidentes** | Mantener plan, contactos, responsables y bitácora de ejercicios. | [Jira Service Management](https://www.atlassian.com/collections/service/pricing?bundle=jira-service-management) · [reseñas](https://www.g2.com/products/jira-service-management/reviews): coordina tickets y aprobaciones. | Standard: **USD 20/agente/mes**. |
@@ -33,7 +34,7 @@ Abre el tema que te interese. «Sin herramienta seleccionada» significa que est
 | **A.5.4 Responsabilidades directivas** | Supervisar objetivos y exigir seguimiento. | Sin herramienta seleccionada |
 | **A.5.5 Contacto con autoridades** | Mantener contactos, criterios y suplentes. | Sin herramienta seleccionada |
 | **A.5.6 Contacto con comunidades especializadas** | Designar participación y registrar aprendizaje. | Sin herramienta seleccionada |
-| **A.5.7 Inteligencia de amenazas** | Revisar fuentes relevantes y decidir acciones. | Sin herramienta seleccionada |
+| **A.5.7 Inteligencia de amenazas** | Elegir fuentes, contextualizar señales y decidir acciones. | MISP |
 | **A.5.8 Seguridad en proyectos** | Incluir riesgos y revisiones en cada proyecto. | Sin herramienta seleccionada |
 | **A.5.9 Inventario de activos e información** | Identificar propietario, ubicación y criticidad. | Microsoft Intune, Action1, Vicarius vRx |
 | **A.5.10 Uso aceptable de activos** | Definir reglas y comunicar consecuencias. | Sin herramienta seleccionada |
@@ -150,10 +151,11 @@ Abre el tema que te interese. «Sin herramienta seleccionada» significa que est
 
 ## ¿A cuántos controles ayuda cada herramienta?
 
-**Conteo orientativo de esta guía:** **14 herramientas**, **49 relaciones herramienta–control** y **40 controles distintos de 93** con algún apoyo posible; en los otros **53** no se seleccionó una herramienta en esta edición. Un mismo control puede aparecer en varias herramientas. Los números indican **apoyo parcial**, nunca que el producto cumpla o certifique el control. Las funciones dependen del plan, la configuración y los activos incorporados.
+**Conteo orientativo de esta guía:** **15 herramientas**, **50 relaciones herramienta–control** y **41 controles distintos de 93** con algún apoyo posible; en los otros **52** no se seleccionó una herramienta en esta edición. Un mismo control puede aparecer en varias herramientas. Los números indican **apoyo parcial**, nunca que el producto cumpla o certifique el control. Las funciones dependen del plan, la configuración y los activos incorporados.
 
 | Herramienta | Controles a los que puede aportar | N.º |
 |---|---|---:|
+| MISP | A.5.7 | **1** |
 | Active Directory DS | A.5.15, A.5.16, A.5.17, A.5.18, A.8.2, A.8.3 | **6** |
 | Jira Service Management | A.5.24–A.5.27, A.8.32 | **5** |
 | Microsoft Intune | A.5.9, A.7.9, A.8.1, A.8.9, A.8.19 | **5** |
