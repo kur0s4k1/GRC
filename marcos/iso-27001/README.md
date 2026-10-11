@@ -8,7 +8,7 @@ Referencia del estándar internacional para establecer, implementar, mantener y 
 
 Define los requisitos del SGSI. Su estructura sigue el **Anexo SL** (High-Level Structure) común a los sistemas de gestión ISO:
 
-**Guía práctica:** [herramientas recomendadas frente a gestión manual](herramientas-vs-manual-iso-27002.md), con el control identificado, precio y reseñas. La matriz completa de 93 controles está enlazada como anexo.
+**Guía práctica:** [herramientas recomendadas frente a gestión manual](herramientas-vs-manual-iso-27002.md), con el control identificado, precio y número de controles a los que puede aportar cada herramienta.
 
 1. Objeto y campo de aplicación
 2. Referencias normativas
