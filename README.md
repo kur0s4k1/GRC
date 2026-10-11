@@ -22,7 +22,6 @@ GRC/
 
 | Sección | Contenido |
 |---|---|
-| [Explorador de controles y herramientas](https://kur0s4k1.github.io/GRC/) | Busca los 93 controles, compara el trabajo manual con herramientas de apoyo, precios de referencia y pruebas prácticas |
 | [`marcos/iso-27001`](marcos/iso-27001) | SGSI, controles Anexo A (93), declaración de aplicabilidad, familia ISO 27000, [herramientas por control](marcos/iso-27001/herramientas-vs-manual-iso-27002.md) y [herramientas transversales](marcos/iso-27001/herramientas-transversales-sgsi.md) |
 | [`marcos/nist`](marcos/nist) | CSF 2.0, SP 800-53 Rev.5, SP 800-171, gestión de riesgo (800-30) |
 | [`marcos/otros-marcos`](marcos/otros-marcos) | COBIT 2019, CIS Controls v8.1, SOC 2, ISO 31000, ISO 22301 |
