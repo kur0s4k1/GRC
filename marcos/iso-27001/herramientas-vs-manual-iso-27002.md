@@ -1,6 +1,6 @@
 # Herramientas que facilitan controles ISO 27001/27002
 
-**Guía rápida · edición 2022 · revisada el 10-10-2026.** Cada fila identifica el control del **Anexo A de ISO/IEC 27001:2022** (el mismo número en ISO/IEC 27002:2022), la tarea manual y **una herramienta recomendada** para facilitarla. La tabla muestra recomendaciones concretas, no una lista obligatoria de compras.
+**Guía rápida · edición 2022 · revisada el 10-10-2026.** Cada fila identifica el control del **Anexo A de ISO/IEC 27001:2022** (el mismo número en ISO/IEC 27002:2022), la tarea manual y **una herramienta recomendada** para facilitarla. Arriba hay recomendaciones directas; debajo está la lista completa de **los 93 controles**, agrupada en secciones desplegables.
 
 | Control | Si se hace manualmente | Herramienta recomendada | Precio público de referencia |
 |---|---|---|---|
@@ -20,9 +20,139 @@
 
 **Ejemplo de otra opción para A.8.8:** [Vicarius vRx](https://www.vicarius.io/features/patch-management) reúne priorización, parcheo y otras formas de remediación; tiene [reseñas de usuarios](https://www.g2.com/products/vrx-by-vicarius/reviews). **No se encontró un precio público oficial actual**; requiere cotización. Action1 aparece como primera recomendación por su entrada gratuita y mayor volumen de reseñas, no porque sea adecuado para toda infraestructura.
 
+## Los 93 controles, en una línea cada uno
+
+Abre el tema que te interese. «Sin herramienta seleccionada» significa que esta guía no recomienda un producto concreto para ese control; el trabajo manual descrito sigue siendo necesario. Los nombres y precios de las herramientas citadas están arriba.
+
+<details>
+<summary><strong>A.5 · Organizativos (37)</strong></summary>
+
+| Control | Trabajo manual | Herramienta de apoyo |
+|---|---|---|
+| **A.5.1 Política de seguridad** | Redactar, aprobar, comunicar y revisar versiones. | Sin herramienta seleccionada |
+| **A.5.2 Roles de seguridad** | Asignar responsables y revisar RACI. | Sin herramienta seleccionada |
+| **A.5.3 Separación de funciones** | Identificar conflictos y revisar accesos. | Sin herramienta seleccionada |
+| **A.5.4 Responsabilidades directivas** | Supervisar objetivos y exigir seguimiento. | Sin herramienta seleccionada |
+| **A.5.5 Contacto con autoridades** | Mantener contactos, criterios y suplentes. | Sin herramienta seleccionada |
+| **A.5.6 Contacto con comunidades especializadas** | Designar participación y registrar aprendizaje. | Sin herramienta seleccionada |
+| **A.5.7 Inteligencia de amenazas** | Revisar fuentes relevantes y decidir acciones. | Sin herramienta seleccionada |
+| **A.5.8 Seguridad en proyectos** | Incluir riesgos y revisiones en cada proyecto. | Sin herramienta seleccionada |
+| **A.5.9 Inventario de activos e información** | Identificar propietario, ubicación y criticidad. | Microsoft Intune, Action1, Vicarius vRx |
+| **A.5.10 Uso aceptable de activos** | Definir reglas y comunicar consecuencias. | Sin herramienta seleccionada |
+| **A.5.11 Devolución de activos** | Lista de salida y verificación física. | Sin herramienta seleccionada |
+| **A.5.12 Clasificación de información** | Definir niveles y decidir clase por propietario. | Sin herramienta seleccionada |
+| **A.5.13 Etiquetado de información** | Aplicar marcas según clasificación. | Sin herramienta seleccionada |
+| **A.5.14 Transferencia de información** | Autorizar destinatarios y proteger el envío. | Sin herramienta seleccionada |
+| **A.5.15 Control de acceso** | Definir necesidad, aprobar y revisar permisos. | Active Directory DS |
+| **A.5.16 Gestión de identidades** | Alta, cambio, baja y reconciliación. | Active Directory DS |
+| **A.5.17 Información de autenticación** | Reglas de creación, custodia y recuperación. | Active Directory DS |
+| **A.5.18 Derechos de acceso** | Aprobar, revisar y revocar derechos. | Active Directory DS |
+| **A.5.19 Seguridad en relaciones con proveedores** | Inventariar y clasificar proveedores. | UpGuard Vendor Risk |
+| **A.5.20 Seguridad en contratos con proveedores** | Negociar cláusulas y responsabilidades. | UpGuard Vendor Risk |
+| **A.5.21 Cadena de suministro TIC** | Identificar subproveedores y dependencias. | UpGuard Vendor Risk |
+| **A.5.22 Seguimiento de servicios de proveedores** | Revisar SLA, incidentes y cambios. | UpGuard Vendor Risk |
+| **A.5.23 Uso seguro de nube** | Evaluar arquitectura, responsabilidad compartida y salida. | Sin herramienta seleccionada |
+| **A.5.24 Preparación ante incidentes** | Definir roles, playbooks y ejercicios. | Jira Service Management |
+| **A.5.25 Evaluación de eventos** | Definir severidad y decidir escalamiento. | Jira Service Management, Wazuh |
+| **A.5.26 Respuesta a incidentes** | Contener, comunicar, erradicar y recuperar. | Jira Service Management |
+| **A.5.27 Aprendizaje de incidentes** | Analizar causas y verificar mejoras. | Jira Service Management |
+| **A.5.28 Recolección de evidencia** | Establecer custodia, integridad y retención. | Wazuh |
+| **A.5.29 Seguridad durante interrupciones** | Priorizar funciones y reglas temporales. | Sin herramienta seleccionada |
+| **A.5.30 Preparación TIC para continuidad** | Definir RTO/RPO y probar recuperación. | Veeam Data Platform Essentials |
+| **A.5.31 Requisitos legales y contractuales** | Mantener matriz legal y revisar cambios. | Sin herramienta seleccionada |
+| **A.5.32 Propiedad intelectual** | Identificar licencias, titulares y permisos. | Sin herramienta seleccionada |
+| **A.5.33 Protección de registros** | Definir retención, acceso y destrucción. | Sin herramienta seleccionada |
+| **A.5.34 Privacidad y datos personales** | Mapear tratamientos y bases, minimizar datos. | Tonic Structural |
+| **A.5.35 Revisión independiente** | Encargar revisión externa y gestionar hallazgos. | Sin herramienta seleccionada |
+| **A.5.36 Cumplimiento de políticas** | Muestrear prácticas y corregir desvíos. | Sin herramienta seleccionada |
+| **A.5.37 Procedimientos operativos** | Documentar pasos, responsables y actualización. | Sin herramienta seleccionada |
+
+</details>
+
+<details>
+<summary><strong>A.6 · De personas (8)</strong></summary>
+
+| Control | Trabajo manual | Herramienta de apoyo |
+|---|---|---|
+| **A.6.1 Verificación previa** | Definir verificaciones legales, proporcionales y consentidas. | Sin herramienta seleccionada |
+| **A.6.2 Términos de empleo** | Incluir deberes de seguridad en acuerdos. | Sin herramienta seleccionada |
+| **A.6.3 Formación y conciencia** | Enseñar, reforzar y medir aprendizaje. | KnowBe4 Security Awareness Training |
+| **A.6.4 Proceso disciplinario** | Definir reglas justas y aplicar con RR. HH. | Sin herramienta seleccionada |
+| **A.6.5 Responsabilidades al salir o cambiar** | Recordar deberes y cerrar accesos/activos. | Sin herramienta seleccionada |
+| **A.6.6 Acuerdos de confidencialidad** | Definir alcance, firmar y revisar vigencia. | Sin herramienta seleccionada |
+| **A.6.7 Trabajo remoto** | Fijar condiciones, medios y revisión. | Sin herramienta seleccionada |
+| **A.6.8 Reporte de eventos** | Dar canal sencillo y entrenar su uso. | Sin herramienta seleccionada |
+
+</details>
+
+<details>
+<summary><strong>A.7 · Físicos (14)</strong></summary>
+
+| Control | Trabajo manual | Herramienta de apoyo |
+|---|---|---|
+| **A.7.1 Perímetro físico** | Delimitar zonas, inspeccionar barreras. | Sin herramienta seleccionada |
+| **A.7.2 Entrada física** | Autorizar, registrar y revocar entradas. | Kisi |
+| **A.7.3 Oficinas y salas** | Definir zonas y revisar cierres. | Sin herramienta seleccionada |
+| **A.7.4 Vigilancia física** | Vigilar entradas y responder alertas. | Kisi |
+| **A.7.5 Amenazas ambientales** | Evaluar incendio, agua, temperatura y ubicación. | Sin herramienta seleccionada |
+| **A.7.6 Trabajo en áreas seguras** | Autorizar actividades y supervisar visitantes. | Kisi |
+| **A.7.7 Mesa y pantalla limpias** | Inspeccionar puestos y bloquear pantallas. | Sin herramienta seleccionada |
+| **A.7.8 Ubicación y protección de equipos** | Evitar exposición a golpes, calor o robo. | Sin herramienta seleccionada |
+| **A.7.9 Activos fuera de instalaciones** | Autorizar préstamo y proteger transporte. | Microsoft Intune |
+| **A.7.10 Medios de almacenamiento** | Inventariar, restringir, transportar y destruir. | Sin herramienta seleccionada |
+| **A.7.11 Servicios de soporte** | Evaluar energía, climatización y redundancia. | Sin herramienta seleccionada |
+| **A.7.12 Cableado** | Inspeccionar rutas y proteger puntos expuestos. | Sin herramienta seleccionada |
+| **A.7.13 Mantenimiento de equipos** | Programar, autorizar y registrar trabajos. | Sin herramienta seleccionada |
+| **A.7.14 Eliminación/reutilización segura** | Borrar o destruir y verificar medios. | Sin herramienta seleccionada |
+
+</details>
+
+<details>
+<summary><strong>A.8 · Tecnológicos (34)</strong></summary>
+
+| Control | Trabajo manual | Herramienta de apoyo |
+|---|---|---|
+| **A.8.1 Dispositivos de usuario** | Configurar, cifrar, actualizar y revisar. | Microsoft Intune |
+| **A.8.2 Acceso privilegiado** | Aprobar privilegios mínimos y revisarlos. | Active Directory DS |
+| **A.8.3 Restricción de información** | Definir permisos por necesidad. | Active Directory DS |
+| **A.8.4 Acceso a código fuente** | Autorizar colaboradores y revisar repositorios. | GitHub Team |
+| **A.8.5 Autenticación segura** | Exigir MFA y mecanismos adecuados. | Sin herramienta seleccionada |
+| **A.8.6 Capacidad** | Medir consumo, prever crecimiento y actuar. | Sin herramienta seleccionada |
+| **A.8.7 Malware** | Definir prevención, actualización y respuesta. | Sin herramienta seleccionada |
+| **A.8.8 Vulnerabilidades técnicas** | Descubrir, priorizar, parchear y verificar. | Snyk, Action1, Vicarius vRx |
+| **A.8.9 Configuración** | Mantener baselines, cambios y desvíos. | Microsoft Intune, Wazuh, Vicarius vRx |
+| **A.8.10 Eliminación de información** | Definir plazos y comprobar borrado. | Sin herramienta seleccionada |
+| **A.8.11 Enmascaramiento** | Clasificar datos, aplicar reglas y probar reidentificación. | Tonic Structural |
+| **A.8.12 Prevención de fuga** | Mapear canales, aplicar reglas y revisar alertas. | Sin herramienta seleccionada |
+| **A.8.13 Respaldo** | Establecer frecuencia, cifrar y probar restauración. | Veeam Data Platform Essentials |
+| **A.8.14 Redundancia** | Diseñar y ensayar conmutación. | Sin herramienta seleccionada |
+| **A.8.15 Registro de eventos** | Elegir eventos, proteger y retener logs. | Wazuh |
+| **A.8.16 Monitoreo** | Definir casos de uso y responder. | Wazuh |
+| **A.8.17 Sincronización de relojes** | Configurar hora fiable y revisar desvíos. | Sin herramienta seleccionada |
+| **A.8.18 Utilidades privilegiadas** | Restringir herramientas administrativas. | Sin herramienta seleccionada |
+| **A.8.19 Instalación de software** | Autorizar aplicaciones y cambios. | Microsoft Intune, Action1 |
+| **A.8.20 Seguridad de redes** | Definir reglas, segmentar y revisar tráfico. | Netgate pfSense |
+| **A.8.21 Servicios de red** | Contratar, configurar y supervisar servicios. | Netgate pfSense |
+| **A.8.22 Segmentación de redes** | Diseñar zonas y probar aislamiento. | Netgate pfSense |
+| **A.8.23 Filtrado web** | Definir categorías, excepciones y revisar bloqueos. | Sin herramienta seleccionada |
+| **A.8.24 Criptografía** | Elegir algoritmos, llaves y rotación. | Sin herramienta seleccionada |
+| **A.8.25 Desarrollo seguro** | Definir revisiones y puertas de entrega. | Snyk, GitHub Team |
+| **A.8.26 Requisitos de seguridad de aplicaciones** | Traducir riesgos en criterios verificables. | Sin herramienta seleccionada |
+| **A.8.27 Arquitectura segura** | Revisar límites de confianza y decisiones. | Sin herramienta seleccionada |
+| **A.8.28 Programación segura** | Establecer pautas y revisar código. | Snyk |
+| **A.8.29 Pruebas de seguridad** | Definir alcance y comprobar correcciones. | Snyk |
+| **A.8.30 Desarrollo tercerizado** | Pactar obligaciones, revisar entregables. | Sin herramienta seleccionada |
+| **A.8.31 Entornos separados** | Separar identidades, redes y datos. | Sin herramienta seleccionada |
+| **A.8.32 Cambios** | Solicitar, aprobar, desplegar y revertir. | Jira Service Management, GitHub Team |
+| **A.8.33 Información de prueba** | Evitar PII real o reducirla de forma demostrable. | Tonic Structural |
+| **A.8.34 Protección durante auditorías técnicas** | Pactar alcance, ventanas y custodia de resultados. | Sin herramienta seleccionada |
+
+</details>
+
+
 ## ¿A cuántos controles ayuda cada herramienta?
 
-**Conteo orientativo de esta guía:** **14 herramientas**, **50 relaciones herramienta–control** y **40 controles distintos de 93** con algún apoyo posible. Un mismo control puede aparecer en varias herramientas. Los números indican **apoyo parcial**, nunca que el producto cumpla o certifique el control. Las funciones dependen del plan, la configuración y los activos incorporados.
+**Conteo orientativo de esta guía:** **14 herramientas**, **50 relaciones herramienta–control** y **40 controles distintos de 93** con algún apoyo posible; en los otros **53** no se seleccionó una herramienta en esta edición. Un mismo control puede aparecer en varias herramientas. Los números indican **apoyo parcial**, nunca que el producto cumpla o certifique el control. Las funciones dependen del plan, la configuración y los activos incorporados.
 
 | Herramienta | Controles a los que puede aportar | N.º |
 |---|---|---:|
