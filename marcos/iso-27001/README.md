@@ -10,6 +10,8 @@ Define los requisitos del SGSI. Su estructura sigue el **Anexo SL** (High-Level 
 
 **Guía práctica:** [herramientas recomendadas frente a gestión manual](herramientas-vs-manual-iso-27002.md), con el control identificado, precio y número de controles a los que puede aportar cada herramienta.
 
+**Buscador interactivo:** [explorar los 93 controles y herramientas](https://kur0s4k1.github.io/GRC/). También funciona abriendo [`../../docs/index.html`](../../docs/index.html) sin instalar nada. Si editas la guía, actualiza los datos con `python3 tools/build_explorer.py` desde la raíz del repositorio.
+
 **Herramientas transversales:** [Mermaid, draw.io, CISO Assistant y eramba](herramientas-transversales-sgsi.md) para diagramar y administrar el SGSI.
 
 1. Objeto y campo de aplicación
