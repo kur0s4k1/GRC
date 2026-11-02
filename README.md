@@ -10,6 +10,7 @@ Portafolio de **Governance, Risk & Compliance**: marcos de referencia, normativa
 
 ```text
 GRC/
+├── gobernanza/             # Gobierno de IA y adopción organizacional
 ├── marcos/                 # Frameworks y estándares de seguridad
 │   ├── iso-27001/          # ISO/IEC 27001, 27002, 27005, familia 27000
 │   ├── nist/               # NIST CSF 2.0, SP 800-53, 800-171, 800-30
@@ -22,6 +23,7 @@ GRC/
 
 | Sección | Contenido |
 |---|---|
+| [`gobernanza/ia`](gobernanza/ia) | [Gobernar la IA sin frenar la productividad](gobernanza/ia/gobernar-la-ia-sin-frenar-la-productividad.pdf): investigación aplicada sobre adopción de IA, control de datos, permisos y resultados medibles |
 | [`marcos/iso-27001`](marcos/iso-27001) | [Ruta para implementar y mantener el SGSI](marcos/iso-27001/implementar-y-mantener-sgsi.md), controles Anexo A (93), declaración de aplicabilidad, familia ISO 27000, [herramientas por control](marcos/iso-27001/herramientas-vs-manual-iso-27002.md) y [herramientas transversales](marcos/iso-27001/herramientas-transversales-sgsi.md) |
 | [`marcos/nist`](marcos/nist) | CSF 2.0, SP 800-53 Rev.5, SP 800-171, gestión de riesgo (800-30) |
 | [`marcos/otros-marcos`](marcos/otros-marcos) | COBIT 2019, CIS Controls v8.1, SOC 2, ISO 31000, ISO 22301 |
@@ -29,6 +31,14 @@ GRC/
 | [`normativas-legales`](normativas-legales) | Ley 21.663 y 21.719 (Chile), GDPR, NIS2, DORA, CRA, HIPAA |
 | [`riesgo`](riesgo) | Metodología ISO 31000 / ISO/IEC 27005, escalas, tratamiento, apetito de riesgo |
 | [`plantillas`](plantillas) | Política de seguridad, SoA, registro de riesgos, plan de tratamiento, KPI/KRI |
+
+---
+
+## Gobierno de inteligencia artificial
+
+### [Gobernar la IA sin frenar la productividad](gobernanza/ia/gobernar-la-ia-sin-frenar-la-productividad.pdf)
+
+Investigación documental independiente de **Enrique de Clerck** sobre cómo adoptar inteligencia artificial en la empresa con seguridad, control de datos y resultados medibles. Propone autorizar por caso de uso y evaluar la información tratada, los proveedores, los conectores y la autonomía de los agentes, combinando evidencia sobre productividad con criterios de riesgo y calidad. Traduce referencias como NIST AI RMF, ISO/IEC 42001 y las guías OWASP en responsables, políticas, controles y una hoja de ruta para aprovechar la IA y medir su valor sin depender únicamente del bloqueo de herramientas.
 
 ---
 
