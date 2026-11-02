@@ -1,75 +1,83 @@
-# GRC — Gobernanza, Riesgo y Cumplimiento
+<div align="center">
 
-Portafolio de **Governance, Risk & Compliance**: marcos de referencia, normativas legales y estándares industriales, metodología de gestión de riesgo, controles y plantillas listas para implementar en un SGSI alineado a **ISO/IEC 27001** y a las principales regulaciones sectoriales.
+# GRC · Gobernanza, Riesgo y Cumplimiento
 
-> Del control al cumplimiento: cada norma mapeada a controles accionables, evidencias esperadas y métricas de madurez.
+**Gobierno de IA · Marcos de seguridad · Riesgos · Cumplimiento**
 
----
+Enrique de Clerck · Guías, metodología y recursos para conectar controles con evidencia.
 
-## Estructura del repositorio
+[Gobernanza](#01--gobierno-de-inteligencia-artificial) · [Marcos](#02--marcos-de-seguridad) · [Normativa](#03--normativa-y-cumplimiento) · [Riesgos](#04--gestión-de-riesgos) · [Plantillas](#05--plantillas)
 
-```text
-GRC/
-├── gobernanza/             # Gobierno de IA y adopción organizacional
-├── marcos/                 # Frameworks y estándares de seguridad
-│   ├── iso-27001/          # ISO/IEC 27001, 27002, 27005, familia 27000
-│   ├── nist/               # NIST CSF 2.0, SP 800-53, 800-171, 800-30
-│   ├── otros-marcos/       # COBIT, CIS v8, SOC 2, ISO 31000, 22301
-│   └── industriales/       # IEC 62443, NIST 800-82, NERC CIP, IEC 61508/61511
-├── normativas-legales/     # Chile, UE, EE.UU. — mapeo regulatorio
-├── riesgo/                 # Metodología de análisis y tratamiento de riesgo
-└── plantillas/             # Políticas, SoA, registro de riesgos, KPIs
-```
-
-| Sección | Contenido |
-|---|---|
-| [`gobernanza/ia`](gobernanza/ia) | [Gobernar la IA sin frenar la productividad](gobernanza/ia/gobernar-la-ia-sin-frenar-la-productividad.pdf): investigación aplicada sobre adopción de IA, control de datos, permisos y resultados medibles |
-| [`marcos/iso-27001`](marcos/iso-27001) | [Ruta para implementar y mantener el SGSI](marcos/iso-27001/implementar-y-mantener-sgsi.md), controles Anexo A (93), declaración de aplicabilidad, familia ISO 27000, [herramientas por control](marcos/iso-27001/herramientas-vs-manual-iso-27002.md) y [herramientas transversales](marcos/iso-27001/herramientas-transversales-sgsi.md) |
-| [`marcos/nist`](marcos/nist) | CSF 2.0, SP 800-53 Rev.5, SP 800-171, gestión de riesgo (800-30) |
-| [`marcos/otros-marcos`](marcos/otros-marcos) | COBIT 2019, CIS Controls v8.1, SOC 2, ISO 31000, ISO 22301 |
-| [`marcos/industriales`](marcos/industriales) | IEC 62443 (OT/ICS), NIST SP 800-82, NERC CIP, IEC 61508/61511, ISO 27019, PCI DSS |
-| [`normativas-legales`](normativas-legales) | Ley 21.663 y 21.719 (Chile), GDPR, NIS2, DORA, CRA, HIPAA |
-| [`riesgo`](riesgo) | Metodología ISO 31000 / ISO/IEC 27005, escalas, tratamiento, apetito de riesgo |
-| [`plantillas`](plantillas) | Política de seguridad, SoA, registro de riesgos, plan de tratamiento, KPI/KRI |
+</div>
 
 ---
 
-## Gobierno de inteligencia artificial
+## 01 · Gobierno de inteligencia artificial
 
-### [Gobernar la IA sin frenar la productividad](gobernanza/ia/gobernar-la-ia-sin-frenar-la-productividad.pdf)
+### Gobernar la IA sin frenar la productividad
 
 Investigación documental independiente de **Enrique de Clerck** sobre cómo adoptar inteligencia artificial en la empresa con seguridad, control de datos y resultados medibles. Propone autorizar por caso de uso y evaluar la información tratada, los proveedores, los conectores y la autonomía de los agentes, combinando evidencia sobre productividad con criterios de riesgo y calidad. Traduce referencias como NIST AI RMF, ISO/IEC 42001 y las guías OWASP en responsables, políticas, controles y una hoja de ruta para aprovechar la IA y medir su valor sin depender únicamente del bloqueo de herramientas.
 
----
-
-## 🎯 Enfoque
-
-- **Gobernanza** — roles, políticas, comités, métricas y mejora continua del SGSI.
-- **Riesgo** — identificación, análisis, evaluación y tratamiento bajo ISO 31000 / ISO/IEC 27005.
-- **Cumplimiento** — mapeo de requisitos legales, regulatorios y contractuales a controles verificables.
-- **Resiliencia** — continuidad de negocio (ISO 22301), gestión de incidentes (ISO 27035) y ciberseguridad OT/ICS.
-- **Puente con lo técnico** — cada control se traduce en evidencia auditable y en telemetría de seguridad.
+**[Abrir el PDF →](gobernanza/ia/gobernar-la-ia-sin-frenar-la-productividad.pdf)** · **[Ficha de la investigación →](gobernanza/ia/)**
 
 ---
 
-## 📚 Alcance normativo cubierto
+## 02 · Marcos de seguridad
 
-**Seguridad de la información (general):** ISO/IEC 27001 · ISO/IEC 27002 · ISO/IEC 27005 · ISO/IEC 27701 · ISO 31000 · ISO 22301 · NIST CSF 2.0 · NIST SP 800-53 · CIS Controls v8 · COBIT 2019 · SOC 2 · ITIL 4.
+Referencias para organizar el SGSI, seleccionar controles y relacionar seguridad, continuidad y gestión.
 
-**Industriales / OT-ICS:** IEC 62443 (ISA-99) · NIST SP 800-82 Rev.3 · NERC CIP · IEC 61508 (SIL) · IEC 61511 · ISO/IEC 27019 · IEEE 1686 · API 1164 · Modelo Purdue.
+| Área | Referencias y recursos |
+|---|---|
+| **[ISO/IEC 27001 y SGSI](marcos/iso-27001/)** | Familia ISO 27000, controles del Anexo A y declaración de aplicabilidad |
+| **[NIST](marcos/nist/)** | CSF 2.0, SP 800-53, SP 800-171 y SP 800-30 |
+| **[Otros marcos](marcos/otros-marcos/)** | COBIT, CIS Controls, SOC 2, ISO 31000 e ISO 22301 |
+| **[Industriales y OT/ICS](marcos/industriales/)** | IEC 62443, NIST SP 800-82, NERC CIP y seguridad funcional |
 
-**Regulatorias (por jurisdicción):** Chile — Ley 21.663 (Marco de Ciberseguridad), Ley 21.719 (Protección de Datos), Ley 19.628. UE — GDPR, NIS2, DORA, Cyber Resilience Act. EE.UU. — HIPAA, FISMA, SOX, GLBA. Pago — PCI DSS v4.0.
+### Guías prácticas del SGSI
+
+- **[Implementar y mantener el SGSI](marcos/iso-27001/implementar-y-mantener-sgsi.md):** ruta de trabajo desde el alcance hasta la mejora continua.
+- **[Herramientas por control](marcos/iso-27001/herramientas-vs-manual-iso-27002.md):** apoyo técnico y actividades manuales.
+- **[Herramientas transversales](marcos/iso-27001/herramientas-transversales-sgsi.md):** recursos que apoyan varios procesos del sistema de gestión.
 
 ---
 
-## ⚠️ Aviso
+## 03 · Normativa y cumplimiento
 
-El contenido de este repositorio es material **de referencia y educativo** sobre marcos de gobernanza, riesgo y cumplimiento. No reproduce texto normativo de pago ni sustituye la lectura de la norma oficial; las plantillas son adaptables y deben validarse según el contexto, el alcance y la jurisdicción de cada organización.
+Material de referencia organizado por jurisdicción y ámbito de aplicación:
+
+- **Chile:** Ley 21.663, Ley 21.719 y Ley 19.628.
+- **Unión Europea:** GDPR, NIS2, DORA y Cyber Resilience Act.
+- **Estados Unidos:** HIPAA, FISMA, SOX y GLBA.
+- **Pagos:** PCI DSS.
+
+**[Consultar normativa y mapeo de controles →](normativas-legales/)**
 
 ---
+
+## 04 · Gestión de riesgos
+
+Metodología alineada a **ISO 31000 e ISO/IEC 27005**, compatible con NIST SP 800-30. Incluye contexto y apetito de riesgo, identificación, escalas de probabilidad e impacto, evaluación, tratamiento y seguimiento.
+
+**[Ver la metodología y las escalas →](riesgo/)**
+
+---
+
+## 05 · Plantillas
+
+Recursos editables para adaptar al alcance y contexto de cada organización:
+
+- **[Política de seguridad de la información](plantillas/politica-seguridad-informacion.md)**
+- **[Declaración de aplicabilidad (SoA)](plantillas/declaracion-aplicabilidad-soa.md)**
+- **[Registro de riesgos (CSV)](plantillas/registro-riesgos.csv)**
+
+---
+
+## Alcance del material
+
+Contenido **de referencia y educativo**. No reproduce texto normativo de pago ni sustituye la lectura de la norma oficial. Las plantillas y los criterios deben validarse según el contexto, el alcance y la jurisdicción de cada organización.
 
 ## Licencia
 
 Distribuido bajo licencia **MIT** — ver [`LICENSE`](LICENSE).
 
-<p align="center"><sub>GRC · ISO/IEC 27001 · Riesgo · Cumplimiento · Resiliencia OT/ICS</sub></p>
+<p align="center"><sub>GRC · Gobierno de IA · SGSI · Riesgos · Cumplimiento</sub></p>
